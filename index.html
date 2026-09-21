@@ -288,6 +288,56 @@
     display:none;
   }
 
+  /* ---- Footer ---- */
+.footer {
+  margin-top: 42px;
+  padding: 20px 10px 8px;
+  text-align: center;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.footer .made-by {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 5px;
+}
+
+.footer .made-by span {
+  color: var(--violet);
+}
+
+.footer .role {
+  font-size: 14px;
+  color: #9aa0b8;
+  margin-bottom: 18px;
+}
+
+.footer .links {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 18px;
+}
+
+.footer .links a {
+  color: #b8b2ff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.footer .links a:hover {
+  color: var(--violet);
+  text-decoration: underline;
+}
+
+.footer .copyright {
+  font-size: 13px;
+  color: #69708a;
+}
+
   @media (max-width:480px){
     .chip-grid{ grid-template-columns:1fr; }
   }
@@ -352,6 +402,21 @@
       <button class="chip" data-cmd="what can you do">List commands<span class="ex">"what can you do"</span></button>
     </div>
   </div>
+ <!-- FOOTER -->
+  <div class="container">
+   <footer class="footer">
+       <p class="footer-name">Made by <span>Aman Kumar Rai</span></p>
+       <p class="footer-sub">B.Tech CSE Student</p>
+
+       <div class="footer-links">
+           <a href="https://github.com/amanrai1235" target="_blank">GitHub</a>
+           <a href="https://www.linkedin.com/in/aman-kumar-rai-b4019b315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+           <a href="mailto:aman.kumar.rai1203@gmail.com">Email</a>
+       </div>
+
+       <p class="footer-copy">© 2026 Nova Voice Assistant. All rights reserved.</p>
+   </footer>
+</div>
 
 </div>
 
